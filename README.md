@@ -22,13 +22,13 @@ Global Ruby gems you would like to make sure are installed.
 
 ## Dependencies
 
-  - [engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
+  - [Engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: engboilers.ruby, ruby_execute: true }
+        - { role: Engboilers.ruby, ruby_execute: true }
 
 ## License
 
