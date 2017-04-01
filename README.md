@@ -1,6 +1,6 @@
 # Ansible Role: Ruby
 
-[![Build Status](https://travis-ci.org/kadaan/ansible-role-ruby.svg?branch=master)](https://travis-ci.org/kadaan/ansible-role-ruby)
+[![Build Status](https://travis-ci.org/engboilers/ansible-role-ruby.svg?branch=master)](https://travis-ci.org/engboilers/ansible-role-ruby)
 
 Installs ruby and global ruby gems.
 
@@ -22,13 +22,13 @@ Global Ruby gems you would like to make sure are installed.
 
 ## Dependencies
 
-  - [kadaan.homebrew](https://galaxy.ansible.com/kadaan/homebrew/)
+  - [engboilers.homebrew](https://galaxy.ansible.com/engboilers/homebrew/)
 
 ## Example Playbook
 
     - hosts: localhost
       roles:
-        - { role: kadaan.ruby, ruby_execute: true }
+        - { role: engboilers.ruby, ruby_execute: true }
 
 ## License
 

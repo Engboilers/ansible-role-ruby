@@ -1,5 +1,5 @@
 galaxy_info:
-  author: kadaan
+  author: engboilers
   description: Installs ruby and global ruby gems.
   license: Apache 2.0
   min_ansible_version: 2.2
@@ -14,4 +14,4 @@ galaxy_info:
     - console
     - ruby
 dependencies:
-  - kadaan.homebrew
+  - engboilers.homebrew
